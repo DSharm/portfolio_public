@@ -227,7 +227,9 @@ function App(props) {
               <h3 > Dow: {Math.round(dow *10000.00)/100.00}%</h3> 
               <h3 > S&P 500: {Math.round(spy *10000.00)/100.00}%</h3>
               <h3 > Russell: {Math.round(russell *10000.00)/100.00}%</h3> 
+              <a href="https://iexcloud.io">IEX Cloud</a>
         </div>
+        
       </div>
       <div className="row">
         <div className="col-sm-6">
@@ -243,7 +245,9 @@ function App(props) {
           <BuyShares submitAlreadyExists = {handleAlreadyExists} submitNewBuy = {handleNewBuy} portfolio = {portfolio}/> 
           <SellShares submitHandler = {handleSell}/> 
         </div>
+        
       </div>
+      <a href="https://iexcloud.io">Data provided by IEX Cloud</a>
     </div>
   );
 }
